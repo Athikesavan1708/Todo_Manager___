@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <link rel="StyleSheet" href="style.css">
+</head>
+<body>
+                <!-- class="container"> -->
+    <div class="container">
+        <h2 class="logo">📝 TaskManager</h2>
+                <!-- Task Counters -->
+        <div class="counters">
+            <span>Total:<strong id="totalcount">0</strong></span>
+            <span>Completed:<strong id="completedcount">0</strong></span>
+            <span>Pending:<strong id="pendingcount">0</strong></span>
+        </div>
+
+                <!-- Input Section -->
+        <div>
+            <input type="text" id="taskinput" placeholder="Enter a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+                <!-- Task List -->
+        <ul  id="taskList"></ul>
+
+                <!-- Clear Completed button -->
+        
+        <button id="clearCompletedBtn" class="clear-btn">Clear Completed</button>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
